@@ -1,0 +1,95 @@
+.App{
+  background-color: #f3ebeb;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.myHeader{
+  padding: 20px 0px 0px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.myHeader>img{
+  width: 50px;
+}
+
+.myHeader>h1{
+  margin-left: 10px;
+  font-size: 2em;
+}
+
+.Alphabet
+{
+  margin: 25px 0px 10px 0px;
+  font-size: 1.5em;
+}
+
+.Card{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.CardInfo{
+  margin-top: 2%;
+  width: 80%;
+  height: 200px;
+  background-color: #df6b1d;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.FrontInfo{
+  font-size: 6em;
+  color: #fff;
+}
+
+.FooterButtons{
+  width: 100%;
+  min-height: 50px;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  font-size: 18px;
+  font-family: 'Recursive';
+  font-weight: 400;
+  padding: 10px 0px 10px 0px;
+}
+
+.BtnContainer
+{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: 20px;
+}
+.ButtonResposta
+{
+  width: 90px;
+  font-family: "Recursive";
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  border-radius: 5px;
+  background: blue;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: blue solid 1px;
+  padding: 5px;
+}
